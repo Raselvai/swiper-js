@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>Swiper js</title>
+
+    <!-- favicon -->
+    <!-- <link href="img/favicon.png" type="image/png" rel="icon"> -->
+
+    <!-- all css here -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+    <div class="section-wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="swiper-active">
+
+                          <!-- Additional required wrapper -->
+                          <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="img/link-img.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="img/link-img-01.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="img/link-img-02.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="img/link-img-03.png" alt="">
+                            </div>
+                          </div>
+
+                          <!-- If we need pagination -->
+                          <div class="swiper-pagination"></div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="box-content">
+                        <h2>Why this company best<br> in the worldwide</h2>
+                        <span class="line-bar"></span>
+                        <p>Cesna Recruitment was incorporated in Seoul in 1999 and<br> founded its first international branch in New York, United<br> States in 2003. Since then, we have helped over 4,000<br> companies s</p>
+                        <a href="#" class="make-btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        
+        const swiper = new Swiper('.swiper-active', {
+          // Optional parameters
+          direction: 'horizontal',
+          loop: true,
+          autoplay: true,
+          effect: "cards",
+
+          // If we need pagination
+          pagination: {
+            el: '.swiper-pagination',
+          },
+
+
+        });
+
+
+        // });
+
+
+
+    </script>
+</body>
+</html>
